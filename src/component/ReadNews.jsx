@@ -60,6 +60,9 @@ function ReadNews() {
                     {displayCount > 10 && <button className="my-8 px-4 py-2 ml-2 bg-red-500 text-white rounded hover:bg-red-600" onClick={showLessNews}>Show Less</button>}
                 </div>
             ) : null}
+            <div className="pb-36 pt-10">
+                <span className="flex justify-center p-10 bg-red-500 text-3xl font-extrabold">Finnhub have changed Free API to Premium So can't fetch News T_T</span>
+            </div>
         </div>
     );
 }
